@@ -2735,7 +2735,7 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 const core = __importStar(__nccwpck_require__(186));
 async function run() {
     const x = core.getInput('x');
-    core.setOutput('y', `This was the input: ${x}`);
+    core.setOutput('y', x.toUpperCase());
 }
 run();
 

@@ -10,4 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Dummy
+        id: dummy
         uses: adyavanapalli/dummy-action@v1.0.0
+        with:
+          x: This is some sample text.
+
+      - name: Echo Dummy's output.
+        run: echo ${{ steps.dummy.outputs.y }}
