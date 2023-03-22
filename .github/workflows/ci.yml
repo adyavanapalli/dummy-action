@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Dummy
-        uses: adyavanapalli/dummy-action@v1
+        uses: adyavanapalli/dummy-action@v1.0.0
