@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Dummy
         id: dummy
-        uses: adyavanapalli/dummy-action@v1.0.0
+        uses: adyavanapalli/dummy-action@main
         with:
           x: This is some sample text.
 
