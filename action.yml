@@ -1,0 +1,15 @@
+name: dummy-action
+description: A dummy GitHub Action that does nothing useful, but does set up a nice template for developing future Actions.
+author: Anand Dyavanapalli
+inputs:
+  x:
+    description: The input.
+    required: true
+
+outputs:
+  y:
+    description: The output.
+
+runs:
+  using: node12
+  main: dist/main.js
